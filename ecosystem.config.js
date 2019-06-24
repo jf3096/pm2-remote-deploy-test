@@ -23,7 +23,7 @@ module.exports = {
             host: '120.92.102.112',
             port: "22",
             ref: 'origin/master',
-            repo: 'https://github.com/jf3096/merge-image.git',
+            repo: 'git@github.com:jf3096/pm2-remote-deploy-test.git',
             path: '/www',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production'
         }

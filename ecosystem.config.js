@@ -13,7 +13,6 @@ module.exports = {
       port: "22",
       ref: 'origin/master',
       repo: 'git@github.com:jf3096/pm2-remote-deploy-test.git',
-      'pre-deploy': "npm install && npm start",
       path: '/www'
     }
   }
